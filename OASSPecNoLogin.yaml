@@ -1,0 +1,18 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: OASSPecNoLogin
+paths: 
+  /test:
+     get:
+         responses:
+             "200":
+                  description: desc'=
+                  content:
+                      application/json:
+                          schema:
+                              $ref: exchange_modules/3cbbe9f3-c66b-4187-97cf-f07ee5f66c13/oasfragmentVCSSupport/1.0.0/oasfragmentVCSSupport.yaml#/components/schemas/AmericanFlightDataType
+                          examples:
+                              a:
+                                $ref: exchange_modules/3cbbe9f3-c66b-4187-97cf-f07ee5f66c13/oasfragmentVCSSupport/1.0.0/oasfragmentVCSSupport.yaml#/components/examples/flight
+
